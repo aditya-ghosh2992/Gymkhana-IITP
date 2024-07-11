@@ -6,7 +6,7 @@ import iitp_logo from '../../assets/iitp-logo.png'
 const Navbar = () => {
   return (
     <nav className='container'>
-      <img src={iitp_logo} alt="" className='logo'/>
+      <img src={iitp_logo} alt="logo" className='logo'/>
       <ul>
         <li>Home</li>
         <li>About us</li>
