@@ -1,12 +1,12 @@
 import React from 'react'
 import './Navbar.css'
-import iitp logo from '../../assets/iitp logo.png'
+import iitp_logo from '../../assets/iitp-logo.png'
 
 
 const Navbar = () => {
   return (
     <nav className='container'>
-      <img src={iitp logo} alt="" className='logo'/>
+      <img src={iitp_logo} alt="" className='logo'/>
       <ul>
         <li>Home</li>
         <li>About us</li>
