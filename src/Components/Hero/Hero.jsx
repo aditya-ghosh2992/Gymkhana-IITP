@@ -7,7 +7,7 @@ const Hero = () => {
     <div className='hero container'>
       <div className="hero-text">
         <h1>Technology Students' Gymkhana IIT Patna Welcomes You!</h1>
-        <p>Our cutting-edge curriculum is designed to empower students with the knowledge, skills, and experience needed to excel in the dynamic field of education</p>
+        <p>Join a vibrant community where innovation meets tradition. At Gymkhana IIT Patna, we nurture talent, inspire creativity, and cultivate leaders of tomorrow. Explore endless possibilities and transform your aspirations into reality.</p>
         <button className='btn'>Explore more <img src={dark_arrow} alt="" /></button>
       </div>
     </div>
