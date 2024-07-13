@@ -1,11 +1,11 @@
 import React from 'react'
 import './Community.css'
-import program_1 from '../../assets/program-1.png'
-import program_2 from '../../assets/program-2.png'
-import program_3 from '../../assets/program-3.png'
-import Technology from '../../assets/technology.png'
-import program_icon_2 from '../../assets/program-icon-2.png'
-import program_icon_3 from '../../assets/program-icon-3.png'
+import program_1 from '../../assets/program-1.jpg'
+import program_2 from '../../assets/program-2.jpg'
+import program_3 from '../../assets/program-2.jpg'
+import Technology from '../../assets/program-icon-4.png'
+import Sports from '../../assets/program-icon-4.png'
+import Social from '../../assets/program-icon-4.png'
 
 
 const Programs = () => {
@@ -15,21 +15,21 @@ const Programs = () => {
             <img src={program_1} alt="" />
             <div className="caption">
                 <img src={Technology} alt="" />
-                <p>Graduation Degree</p>
+                <p>Technology Community</p>
             </div>
         </div>
         <div className="program">
             <img src={program_2} alt="" />
             <div className="caption">
-                <img src={program_icon_2} alt="" />
-                <p>Masters Degree</p>
+                <img src={Sports} alt="" />
+                <p>Sports Community</p>
             </div>
         </div>
         <div className="program">
             <img src={program_3} alt="" />
             <div className="caption">
-                <img src={program_icon_3} alt="" />
-                <p>Post Graduation</p>
+                <img src={Social} alt="" />
+                <p>Social & Clutural Community</p>
             </div>
         </div>
       
