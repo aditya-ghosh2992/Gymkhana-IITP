@@ -22,7 +22,7 @@ nav ul li{
 }
 .dark-nav{
     background: rgba(33, 46, 160, 0.8);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(24px);
     transition: 0.5s;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
