@@ -21,6 +21,12 @@ nav ul li{
     font-size: 16px;
 }
 .dark-nav{
-    background: #212EA0;
+    background: rgba(33, 46, 160, 0.8);
+    backdrop-filter: blur(20px);
     transition: 0.5s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
+.btn:hover {
+    background-color: rgb(19, 23, 241);
+    color: white;
+  }

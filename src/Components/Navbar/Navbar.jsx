@@ -16,12 +16,12 @@ const Navbar = () => {
   return (
     <nav className={`container ${sticky? 'dark-nav' : ''}`}>
       <img src={iitp_logo} alt="logo" className='logo'/>
-      <ul>
-        <li>Home</li>
-        <li>About us</li>
-        <li>Clubs</li>
-        <li>Events</li>
-        <li>Teams</li>
+      <ul className='navbar-links'>
+        <li><a href='#home'>Home</a></li>
+        <li><a href='#about_us'>About us</a></li>
+        <li><a href='#clubs'>Clubs</a></li>
+        <li><a href='#events'>Events</a></li>
+        <li><a href='#teams'>Teams</a></li>
         
         <li><button className='btn'>Register</button></li>
       </ul>
