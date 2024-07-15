@@ -4,7 +4,7 @@ Welcome to the  GitHub repository of the E-Gymkhana, Indian Institute of Technol
 
 ## Table of Contents
 
-helo 
+
 - [Introduction](#introduction)
 - [Mission](#mission)
 - [Organization](#organization)
