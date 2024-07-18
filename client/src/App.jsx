@@ -6,6 +6,8 @@ import Title from './Components/Title/Title'
 import About from './Components/About/About'
 import Events from './Components/Events/Events'
 import Clubs from './Components/Clubs/Clubs'
+import Footer from './Components/Footer/Footer'
+
 
 const App = () => {
   return (
@@ -14,12 +16,13 @@ const App = () => {
       <Hero/>
       <div className="container">
       <About/>
+      <Title subTitle='Clubs' title='Explore The Interest'/>
+      <Clubs/>
         <Title subTitle='Community' title='Our Vibrant Communities'/>
         <Community/>
         <Title subTitle='Events' title='Campus Photos'/>
         <Events/>
-        <Title subTitle='Clubs' title='Explore The Interest'/>
-        <Clubs />
+        <Footer/>
       </div>
       
     </div>
