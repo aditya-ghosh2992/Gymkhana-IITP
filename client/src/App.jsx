@@ -6,6 +6,8 @@ import Title from './Components/Title/Title'
 import About from './Components/About/About'
 import Events from './Components/Events/Events'
 import Clubs from './Components/Clubs/Clubs'
+import Video from './Components/video/VideoSection'
+
 import Footer from './Components/Footer/Footer'
 
 
@@ -22,6 +24,7 @@ const App = () => {
         <Community/>
         <Title subTitle='Events' title='Campus Photos'/>
         <Events/>
+        <Video />
         <Footer/>
       </div>
       
